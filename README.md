@@ -24,9 +24,11 @@ In addition, we found that the model generally had a better effect on European a
 ## About cycleGAN
 ### What is cycleGAN?
 Cyclegan is essentially two mirror symmetrical Gan, forming a ring network. Two Gan share two generators and each has a discriminator, that is, there are two discriminators and two generators. One unidirectional GaN has two losses, that is, there are four losses in total.
+![5806754-895305b01b041acc](https://user-images.githubusercontent.com/90904086/133890083-1cfe039a-7a45-4501-879a-41d432aa2ebf.png)
 
-The network structure is shown in the figure below
-![CycelGANAgingModelArchitecture](https://user-images.githubusercontent.com/90904086/133889991-ee64499e-d69a-4b99-bc9d-eef107f8bf30.png)
+![5806754-c32814397100c895](https://user-images.githubusercontent.com/90904086/133890088-be6a1151-134b-4d3b-8041-aa9443697d34.png)
+
+
 
 ### Why cycleGAN? 
 Obtaining photos taken by a person at different ages is both challenging and expensive, so we chose to use cyclegan to implement this project. Because cyclegan can transfer domain knowledge between groups without paired input and output examples. Cyclegan can capture the facial features of young people's portraits in an image set and find out how to apply these features to facial images in the elderly set.
