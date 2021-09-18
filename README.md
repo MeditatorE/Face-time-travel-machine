@@ -69,7 +69,7 @@ Then follow the Demo:
 ### If you don't want to use the saved parameters
 You can choose your own training data.
 
-Run [**train.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/train.py) directly to start.
+Run [**train.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/train.py) to start.
 ```
 python train.py --dataroot ./datasets/young2old --name aging_cyclegan --model cycle_gan
 ```
