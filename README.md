@@ -33,3 +33,8 @@ Cyclegan is essentially two mirror symmetrical Gan, forming a ring network. Two 
 ### Why cycleGAN? 
 Obtaining photos taken by a person at different ages is both challenging and expensive, so we chose to use cyclegan to implement this project. Because cyclegan can transfer domain knowledge between groups without paired input and output examples. Cyclegan can capture the facial features of young people's portraits in an image set and find out how to apply these features to facial images in the elderly set.
 
+# Getting Started
+## Installation
+1. Clone this repo
+git clone https://github.com/MeditatorE/Face-time-travel-machine.git    
+cd Face-time-travel-machine
