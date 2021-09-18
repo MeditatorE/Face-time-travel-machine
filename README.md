@@ -40,3 +40,9 @@ Obtaining photos taken by a person at different ages is both challenging and exp
 git clone https://github.com/MeditatorE/Face-time-travel-machine.git    
 cd Face-time-travel-machine
 ```
+2. Install Anaconda
+[**https://www.anaconda.com**](https://www.anaconda.com)
+3. Install pytorch 0.4+
+```
+pip install pytorch
+```
