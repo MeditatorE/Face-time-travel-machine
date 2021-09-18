@@ -51,7 +51,7 @@ pip install pytorch
 ## Start
 We have saved the trained parameters in the [**checkpoints**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/checkpoints/aging_cyclegan) and can call it directly through the GUI to generate pictures.
 
-Run [**main.py()**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/main.py) directly to start.
+Run [**main.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/main.py) directly to start.
 ```
 python main.py
 ```
