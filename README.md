@@ -14,3 +14,6 @@ This repo is heavily based on [**Original CycleGAN implementation**](https://git
 ## Data Process
 ### Training dataset
 Our training data comes from [**IMDB-WIKI-500k+ face images with age and gender labels**](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/). The training set is already provided in the folder [**datasets**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old). We sorted the images in the Wiki-IMDB dataset by age, then selected 4600 images from the 20s and 50s+ images as our dataset, removed undersized images and grayscale images, and adjusted all images to 256 × 256 sizes. The relevant code is provided in [**data process**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/data%20process).
+
+### Testing dataset
+In the training set, we found that the model generally had a better effect on European and American people, but not on Asian, African and other ethnic minorities. Therefore, we created a test set of Asian pictures to specifically explore relevant issues.
