@@ -58,7 +58,7 @@ python main.py
 ```
 
 ### If you are using Windows
-Run [**window_main.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/main.py) directly to start.
+Run [**window_main.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/window_main.py) directly to start.
 ```
 python window_main.py
 ```
