@@ -66,6 +66,9 @@ Then follow the Demo:
 
 ![](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/Demo/QQ20210918-220741-HD.gif)
 
+### If you don't want to use the saved parameters
+You can choose your own training data
+Run [**window_main.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/window_main.py) directly to start.
 
 # Results
               Input                         Output                     reconstruction 
