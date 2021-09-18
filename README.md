@@ -10,7 +10,6 @@ In this project, we explored the technical principles, wide applications and tec
 This repo is heavily based on [**Original CycleGAN implementation**](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). Most of our work involves search data sets, adjust model parameters to better generate images, and write code for image processing and GUI.
 
 
-
 ## Data Process & Datesets
 ### Training dataset
 Our training data comes from [**IMDB-WIKI-500k+ face images with age and gender labels**](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/). The training set is already provided in the folder [**datasets**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old). We sorted the images in the Wiki-IMDB dataset by age, then selected 4600 images from the 20s and 50s+ images as our dataset, removed undersized images and grayscale images, and adjusted all images to 256 × 256. The relevant code is provided in [**data process**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/data%20process).
@@ -28,10 +27,9 @@ Cyclegan is essentially two mirror symmetrical Gan, forming a ring network. Two 
 
 ![5806754-c32814397100c895](https://user-images.githubusercontent.com/90904086/133890088-be6a1151-134b-4d3b-8041-aa9443697d34.png)
 
-
-
 ### Why cycleGAN? 
 Obtaining photos taken by a person at different ages is both challenging and expensive, so we chose to use cyclegan to implement this project. Because cyclegan can transfer domain knowledge between groups without paired input and output examples. Cyclegan can capture the facial features of young people's portraits in an image set and find out how to apply these features to facial images in the elderly set.
+
 
 # Getting Started
 ## Installation
@@ -40,8 +38,11 @@ Obtaining photos taken by a person at different ages is both challenging and exp
 git clone https://github.com/MeditatorE/Face-time-travel-machine.git    
 cd Face-time-travel-machine
 ```
+
 2. Install Anaconda
-[**https://www.anaconda.com**](https://www.anaconda.com)
+
+   [**https://www.anaconda.com**](https://www.anaconda.com)
+
 3. Install pytorch 0.4+
 ```
 pip install pytorch
