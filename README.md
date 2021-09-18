@@ -55,5 +55,5 @@ Run [**main.py()**](https://github.com/MeditatorE/Face-time-travel-machine/blob/
 ```
 python main.py
 ```
-You will see the GUI like this:
-<img width="809" alt="截屏2021-09-18 下午9 31 32" src="https://user-images.githubusercontent.com/90904086/133890644-f5c1984b-ce4e-42de-a08b-a7e6a7bfffb1.png">
+Then follow the Demo:
+![]()
