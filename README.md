@@ -61,10 +61,18 @@ Then follow the Demo:
 
 
 # Results
+              Input                         Output                     reconstruction 
+
 <img width="782" alt="截屏2021-09-18 下午10 17 44" src="https://user-images.githubusercontent.com/90904086/133891928-d6ffff3c-1bcd-4184-8294-647f9eaee61c.png">
 <img width="784" alt="截屏2021-09-18 下午10 16 53" src="https://user-images.githubusercontent.com/90904086/133891901-334135d4-8907-4e21-845b-8e3612ca3262.png">
 <img width="781" alt="截屏2021-09-18 下午10 17 20" src="https://user-images.githubusercontent.com/90904086/133891903-964bf9d5-cb82-4950-98e3-a497d6a8a7ab.png">
 <img width="782" alt="截屏2021-09-18 下午10 18 44" src="https://user-images.githubusercontent.com/90904086/133891915-1112446d-7b05-449c-a787-c097a5186e41.png">
 
+
 ## Improvement and optimization
 On the whole, the model is more friendly to Europeans and Americans, and the effect is not good for other ethnic minorities. We think this is due to the high proportion of Europeans and Americans in the training concentration. After testing, we found that if we use the training set of a certain ethnic group, the training model will significantly improve the aging / rejuvenation effect of the model on this ethnic group.
+
+
+## References
+* [**CycleGAN paper**](https://arxiv.org/abs/1703.10593)
+* [**pytorch-CycleGAN-and-pix2pix**](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
