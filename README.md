@@ -21,3 +21,13 @@ The [**testing set**](https://github.com/MeditatorE/Face-time-travel-machine/tre
 In addition, we found that the model generally had a better effect on European and American people, but not on Asian, African and other ethnic minorities. Therefore, we created a test set of [**Asian pictures**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old/Asian%20test%20dataset) to specifically explore relevant issues. The Asian test set used 112 images collected from the Internet, which were also processed into 256 × 256 images.
 
 
+## About cycleGAN
+### What is cycleGAN?
+Cyclegan is essentially two mirror symmetrical Gan, forming a ring network. Two Gan share two generators and each has a discriminator, that is, there are two discriminators and two generators. One unidirectional GaN has two losses, that is, there are four losses in total.
+
+The network structure is shown in the figure below
+![CycelGANAgingModelArchitecture](https://user-images.githubusercontent.com/90904086/133889991-ee64499e-d69a-4b99-bc9d-eef107f8bf30.png)
+
+### Why cycleGAN? 
+Obtaining photos taken by a person at different ages is both challenging and expensive, so we chose to use cyclegan to implement this project. Because cyclegan can transfer domain knowledge between groups without paired input and output examples. Cyclegan can capture the facial features of young people's portraits in an image set and find out how to apply these features to facial images in the elderly set.
+
