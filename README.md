@@ -47,3 +47,6 @@ cd Face-time-travel-machine
 ```
 pip install pytorch
 ```
+
+## Start
+We have saved the trained parameters in the [**checkpoint**] and can call it directly through the GUI to generate pictures
