@@ -1,8 +1,11 @@
 from PIL import Image
 import os
 
-filename_1 = os.listdir(r'C:\Users\admin\asian_test\young\\')
+#Get filename
+filename_1 = os.listdir(r'C:\Users\admin\asian_test\young\\')   
 filename_2 = os.listdir(r'C:\Users\admin\asian_test\old\\')
+
+#Modify the parameters of the picture
 width = 256
 height = 256
 os.mkdir(r'C:\Users\admin\asian_test\young_edit')
