@@ -57,7 +57,7 @@ python main.py
 ```
 Then follow the Demo:
 
-![](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/Demo/.QQ20210918-220741-HD.gif.icloud)
+![](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/Demo/QQ20210918-220741-HD.gif)
 
 
 # Results
