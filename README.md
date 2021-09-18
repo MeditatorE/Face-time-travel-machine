@@ -18,6 +18,6 @@ Our training data comes from [**IMDB-WIKI-500k+ face images with age and gender 
 ### Testing dataset
 The [**testing set**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old/test%20dataset) is also collected from the wiki-IMDB dataset and processed in the same way as the training set.
 
-In addition, we found that the model generally had a better effect on European and American people, but not on Asian, African and other ethnic minorities. Therefore, we created a test set of [**Asian pictures**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old/Asian%20dataset) to specifically explore relevant issues. The Asian test set used 112 images collected from the Internet, which were also processed into 256 × 256 images.
+In addition, we found that the model generally had a better effect on European and American people, but not on Asian, African and other ethnic minorities. Therefore, we created a test set of [**Asian pictures**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/datasets/young2old/Asian%20test%20dataset) to specifically explore relevant issues. The Asian test set used 112 images collected from the Internet, which were also processed into 256 × 256 images.
 
 
