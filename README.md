@@ -36,5 +36,7 @@ Obtaining photos taken by a person at different ages is both challenging and exp
 # Getting Started
 ## Installation
 1. Clone this repo
+```
 git clone https://github.com/MeditatorE/Face-time-travel-machine.git    
 cd Face-time-travel-machine
+```
