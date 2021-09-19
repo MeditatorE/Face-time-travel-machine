@@ -86,9 +86,11 @@ python train.py --dataroot ./datasets/young2old --name aging_cyclegan --model cy
               Input                         Output                     reconstruction 
 
 <img width="782" alt="截屏2021-09-18 下午10 17 44" src="https://user-images.githubusercontent.com/90904086/133891928-d6ffff3c-1bcd-4184-8294-647f9eaee61c.png">
-<img width="784" alt="截屏2021-09-18 下午10 16 53" src="https://user-images.githubusercontent.com/90904086/133891901-334135d4-8907-4e21-845b-8e3612ca3262.png">
 <img width="781" alt="截屏2021-09-18 下午10 17 20" src="https://user-images.githubusercontent.com/90904086/133891903-964bf9d5-cb82-4950-98e3-a497d6a8a7ab.png">
-<img width="782" alt="截屏2021-09-18 下午10 18 44" src="https://user-images.githubusercontent.com/90904086/133891915-1112446d-7b05-449c-a787-c097a5186e41.png">
+<img width="783" alt="截屏2021-09-19 下午1 52 48" src="https://user-images.githubusercontent.com/90904086/133917061-92e34095-c3a5-430a-b6ee-051f4713c467.png">
+<img width="781" alt="截屏2021-09-19 下午1 37 53" src="https://user-images.githubusercontent.com/90904086/133917066-a290d132-092d-4cb7-ab64-4d9c0239b926.png">
+<img width="780" alt="截屏2021-09-19 下午1 52 06" src="https://user-images.githubusercontent.com/90904086/133917068-28ea9061-4ef7-464f-a481-46aef5c9d671.png">
+
 
 
 ## Improvement and optimization
