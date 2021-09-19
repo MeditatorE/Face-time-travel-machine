@@ -90,6 +90,7 @@ python train.py --dataroot ./datasets/young2old --name aging_cyclegan --model cy
 <img width="781" alt="截屏2021-09-18 下午10 17 20" src="https://user-images.githubusercontent.com/90904086/133891903-964bf9d5-cb82-4950-98e3-a497d6a8a7ab.png">
 <img width="781" alt="截屏2021-09-19 下午1 37 53" src="https://user-images.githubusercontent.com/90904086/133917066-a290d132-092d-4cb7-ab64-4d9c0239b926.png">
 <img width="782" alt="截屏2021-09-19 下午1 40 19" src="https://user-images.githubusercontent.com/90904086/133917109-2cf7b525-a455-4745-aba4-4fcbf59efc42.png">
+
 ## Old to young
               Input                         Output                     reconstruction 
 <img width="780" alt="截屏2021-09-19 下午1 52 06" src="https://user-images.githubusercontent.com/90904086/133917068-28ea9061-4ef7-464f-a481-46aef5c9d671.png">
