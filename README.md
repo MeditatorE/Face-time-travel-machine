@@ -102,6 +102,9 @@ python train.py --dataroot ./datasets/young2old --name aging_cyclegan --model cy
 On the whole, the model is more friendly to Europeans and Americans, and the effect is not good for other ethnic minorities. We think this is due to the high proportion of Europeans and Americans in the training concentration. After testing, we found that if we use the training set of a certain ethnic group, the training model will significantly improve the aging / rejuvenation effect of the model on this ethnic group.
 
 
+## Summary
+* [**Final summary**]
+
 ## References
 * [**CycleGAN paper**](https://arxiv.org/abs/1703.10593)
 * [**pytorch-CycleGAN-and-pix2pix**](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
