@@ -71,7 +71,7 @@ Then follow the Demo:
 
 ![](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/Demo/QQ20210918-220741-HD.gif)
 
-Or you can download the [**Demo video**]().
+Or you can download the [**Demo video**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/Demo/Face%20Time%20Travel%20Machine.mp4).
 
 
 ### If you don't want to use the saved parameters
