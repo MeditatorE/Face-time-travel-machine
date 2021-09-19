@@ -48,6 +48,11 @@ cd Face-time-travel-machine
 pip install pytorch
 ```
 
+4. Install dominate>=2.3.1
+```
+pip install dominate
+```
+
 ## Start
 We have saved the trained parameters in the [**checkpoints**](https://github.com/MeditatorE/Face-time-travel-machine/tree/main/checkpoints/aging_cyclegan) and can call it directly through the GUI to generate pictures.
 
