@@ -103,7 +103,7 @@ On the whole, the model is more friendly to Europeans and Americans, and the eff
 
 
 ## Summary
-* [**Final summary**]
+* [**Final summary**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/summary/Face%20Time%20Travel%20Machine_Summary.pdf)
 
 ## References
 * [**CycleGAN paper**](https://arxiv.org/abs/1703.10593)
